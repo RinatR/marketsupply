@@ -3,115 +3,78 @@
 <head>
   <meta charset="utf-8">
   <title>Index</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
     <div class="page-header__top">
-      <div class="page-header__logo">
-        <img src="#" alt="Top header logo">
+      <div class="layout-center">
+        <div class="page-header__logo">
+          <img src="#" alt="Top header logo">
+        </div>
       </div>
     </div>
     <div class="page-header__bottom">
-      <div class="categories">
-        <ul class="categories-list">
-          <li class="categories-list__item"><a href="#">Clothing</a></li>
-          <li class="categories-list__item"><a href="#">Electronics</a></li>
-          <li class="categories-list__item"><a href="#">Shoes</a></li>
-          <li class="categories-list__item"><a href="#">Watches</a></li>
-          <li class="categories-list__item"><a href="#">Jewellery</a></li>
-          <li class="categories-list__item"><a href="#">Health and Beauty</a></li>
-          <li class="categories-list__item"><a href="#">Kids and Babies</a></li>
-          <li class="categories-list__item"><a href="#">Sport</a></li>
-          <li class="categories-list__item"><a href="#">Home and Garden</a></li>
-        </ul>
+      <div class="layout-center">
+        <div class="categories">
+          <div class="categories__header">Categories
+            <ul class="categories-list">
+              <li class="categories-list__item"><a href="#">Clothing</a></li>
+              <li class="categories-list__item"><a href="#">Electronics</a></li>
+              <li class="categories-list__item"><a href="#">Shoes</a></li>
+              <li class="categories-list__item"><a href="#">Watches</a></li>
+              <li class="categories-list__item"><a href="#">Jewellery</a></li>
+              <li class="categories-list__item"><a href="#">Health and Beauty</a></li>
+              <li class="categories-list__item"><a href="#">Kids and Babies</a></li>
+              <li class="categories-list__item"><a href="#">Sport</a></li>
+              <li class="categories-list__item"><a href="#">Home and Garden</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <nav class="menu">
+          <a href="#" class="menu__item">Clothing</a>
+          <a href="#" class="menu__item">Electronics</a>
+          <a href="#" class="menu__item">Health & Beauty</a>
+          <a href="#" class="menu__item">Watches</a>
+          <a href="#" class="menu__item">Jewellery</a>
+          <a href="#" class="menu__item">Shoes</a>
+        </nav>
       </div>
-      <nav class="menu">
-        <a href="#" class="menu__item">Clothing</a>
-        <a href="#" class="menu__item">Electronics</a>
-        <a href="#" class="menu__item">Health & Beauty</a>
-        <a href="#" class="menu__item">Watches</a>
-        <a href="#" class="menu__item">Jewellery</a>
-        <a href="#" class="menu__item">Shoes</a>
-      </nav>
     </div>
   </header>
   <main class="page-content">
-    <div class="promo">
-      <div class="promo__slider"></div>
-      <div class="promo__features">
-        <div class="promo__features-item"></div>
-        <div class="promo__features-item"></div>
-        <div class="promo__features-item"></div>
-      </div>
-    </div>
-    <div class="left-sidebar">
-      <div class="product-category">
-        <div class="product-category__header">
-          <h2 class="product-category__title">Hot deals</h2>
-          <div class="product-category__toggles">
-            <a href="#" class="product-category__toggle"></a>
-            <a href="#" class="product-category__toggle"></a>
+    <div class="layout-center">
+      <div class="promo">
+        <div class="promo__slider"></div>
+        <div class="promo__features">
+          <div class="promo__features-item">
+            <h2 class="promo__features-title">Money Back</h2>
+            <h3 class="promo__features-subtitle">30 Days Money Back Guarantee</h3>
+          </div>
+          <div class="promo__features-item">
+            <h2 class="promo__features-title">Free Shipping</h2>
+            <h3 class="promo__features-subtitle">Shipping on orders over $99</h3>
+          </div>
+          <div class="promo__features-item">
+            <h2 class="promo__features-title">Special Sale</h2>
+            <h3 class="promo__features-subtitle">Extra $5 off on all items</h3>
           </div>
         </div>
-        <article class="product-card">
-          <div class="product-card__image">
-            <img src="#" alt="Product image">
-          </div>
-          <div class="product-card__desc">
-            <a class="product-card__link" href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <div class="product-card__prices">
-              <span class="product-card__price">$100</span>
-              <span class="product-card__price product-card__price--new">$90</span>
+      </div>
+      <div class="left-sidebar">
+        <div class="product-category">
+          <div class="product-category__header">
+            <h2 class="product-category__title">Hot deals</h2>
+            <div class="product-category__toggles">
+              <a href="#" class="product-category__toggle product-category__toggle--active"></a>
+              <a href="#" class="product-category__toggle"></a>
             </div>
           </div>
-        </article>
-      </div>
-      <div class="product-category">
-        <div class="product-category__header">
-          <h2 class="product-category__title">Hot deals</h2>
-          <div class="product-category__toggles">
-            <a href="#" class="product-category__toggle"></a>
-            <a href="#" class="product-category__toggle"></a>
-          </div>
-        </div>
-        <article class="product-card">
-          <div class="product-card__image">
-            <img src="#" alt="Product image">
-          </div>
-          <div class="product-card__desc">
-            <a class="product-card__link" href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <div class="product-card__prices">
-              <span class="product-card__price">$100</span>
-              <span class="product-card__price product-card__price--new">$90</span>
-            </div>
-          </div>
-        </article>
-      </div>
-
-    </div>
-    <div class="main-content">
-      <div class="product-category product-category--big">
-        <div class="product-category__header">
-          <h2 class="product-category__title">New Product</h2>
-          <ul class="product-category__filter">
-            <li class="product-category__filter-item"><a href="#">All</a></li>
-            <li class="product-category__filter-item"><a href="#">Clothing</a></li>
-            <li class="product-category__filter-item"><a href="#">Electronics</a></li>
-            <li class="product-category__filter-item"><a href="#">Shoes</a></li>
-          </ul>
-          <div class="product-category__toggles">
-            <a href="#" class="product-category__toggle"></a>
-            <a href="#" class="product-category__toggle"></a>
-          </div>
-        </div>
-        <div class="product-category__container">
           <article class="product-card">
             <div class="product-card__image">
-              <img src="#" alt="Product image">
+              <img src="img/product1.jpg" alt="Product image" width="250" height="203">
             </div>
             <div class="product-card__desc">
               <a class="product-card__link" href="#">
@@ -121,39 +84,21 @@
                 <span class="product-card__price">$100</span>
                 <span class="product-card__price product-card__price--new">$90</span>
               </div>
+              <div class="product-card__rating"></div>
             </div>
           </article>
+        </div>
+        <div class="product-category">
+          <div class="product-category__header">
+            <h2 class="product-category__title">Hot deals</h2>
+            <div class="product-category__toggles">
+              <a href="#" class="product-category__toggle"></a>
+              <a href="#" class="product-category__toggle"></a>
+            </div>
+          </div>
           <article class="product-card">
             <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
-              </div>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
-              </div>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
+              <img src="img/product2.jpg" alt="Product image">
             </div>
             <div class="product-card__desc">
               <a class="product-card__link" href="#">
@@ -167,207 +112,258 @@
           </article>
         </div>
       </div>
-      <div class="widgets">
-        <div class="widget"></div>
-        <div class="widget"></div>
-      </div>
-      <div class="product-category product-category--big">
-        <div class="product-category__header">
-          <h2 class="product-category__title">New Product</h2>
-          <ul class="product-category__filter">
-            <li class="product-category__filter-item"><a href="#">All</a></li>
-            <li class="product-category__filter-item"><a href="#">Clothing</a></li>
-            <li class="product-category__filter-item"><a href="#">Electronics</a></li>
-            <li class="product-category__filter-item"><a href="#">Shoes</a></li>
-          </ul>
-          <div class="product-category__toggles">
-            <a href="#" class="product-category__toggle"></a>
-            <a href="#" class="product-category__toggle"></a>
+      <div class="main-content">
+        <div class="product-category product-category--big">
+          <div class="product-category__header">
+            <h2 class="product-category__title">New Products</h2>
+            <ul class="product-category__filter">
+              <li class="product-category__filter-item"><a href="#">All</a></li>
+              <li class="product-category__filter-item"><a href="#">Clothing</a></li>
+              <li class="product-category__filter-item"><a href="#">Electronics</a></li>
+              <li class="product-category__filter-item"><a href="#">Shoes</a></li>
+            </ul>
+            <div class="product-category__toggles">
+              <a href="#" class="product-category__toggle"></a>
+              <a href="#" class="product-category__toggle"></a>
+            </div>
+          </div>
+          <div class="product-category__container">
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product3.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product4.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product5.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product6.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
-        <div class="product-category__container">
-          <article class="product-card">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
-              </div>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
-              </div>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
-              </div>
-            </div>
-          </article>
-          <article class="product-card">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
-              </div>
-            </div>
-          </article>
+        <div class="widgets">
+          <div class="widgets__item"></div>
+          <div class="widgets__item"></div>
         </div>
-      </div>
-      <div class="banner banner--wide"></div>
-      <div class="product-category product-category--big">
-        <div class="product-category__header">
-          <h2 class="product-category__title">New Product</h2>
-          <ul class="product-category__filter">
-            <li class="product-category__filter-item"><a href="#">All</a></li>
-            <li class="product-category__filter-item"><a href="#">Clothing</a></li>
-            <li class="product-category__filter-item"><a href="#">Electronics</a></li>
-            <li class="product-category__filter-item"><a href="#">Shoes</a></li>
-          </ul>
-          <div class="product-category__toggles">
-            <a href="#" class="product-category__toggle"></a>
-            <a href="#" class="product-category__toggle"></a>
+        <div class="product-category product-category--big">
+          <div class="product-category__header">
+            <h2 class="product-category__title">Latest Products</h2>
+            <ul class="product-category__filter">
+              <li class="product-category__filter-item"><a href="#">All</a></li>
+              <li class="product-category__filter-item"><a href="#">Clothing</a></li>
+              <li class="product-category__filter-item"><a href="#">Electronics</a></li>
+              <li class="product-category__filter-item"><a href="#">Shoes</a></li>
+            </ul>
+            <div class="product-category__toggles">
+              <a href="#" class="product-category__toggle"></a>
+              <a href="#" class="product-category__toggle"></a>
+            </div>
+          </div>
+          <div class="product-category__container">
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product7.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product8.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product9.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-card__image">
+                <img src="img/product10.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
-        <div class="product-category__container">
-          <article class="product-card product-card--small">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
+        <div class="banner banner--wide"></div>
+        <div class="product-category product-category--big">
+          <div class="product-category__header">
+            <h2 class="product-category__title">Featured Products</h2>
+            <ul class="product-category__filter">
+              <li class="product-category__filter-item"><a href="#">All</a></li>
+              <li class="product-category__filter-item"><a href="#">Clothing</a></li>
+              <li class="product-category__filter-item"><a href="#">Electronics</a></li>
+              <li class="product-category__filter-item"><a href="#">Shoes</a></li>
+            </ul>
+            <div class="product-category__toggles">
+              <a href="#" class="product-category__toggle"></a>
+              <a href="#" class="product-category__toggle"></a>
             </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
+          </div>
+          <div class="product-category__container">
+            <article class="product-card product-card--small">
+              <div class="product-card__image product-card__image--small">
+                <img src="img/product-small1.jpg" alt="Product image">
               </div>
-            </div>
-          </article>
-          <article class="product-card product-card--small">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
               </div>
-            </div>
-          </article>
-          <article class="product-card product-card--small">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
+            </article>
+            <article class="product-card product-card--small">
+              <div class="product-card__image product-card__image--small">
+                <img src="img/product-small2.jpg" alt="Product image">
               </div>
-            </div>
-          </article>
-          <article class="product-card product-card--small">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
               </div>
-            </div>
-          </article>
-          <article class="product-card product-card--small">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
+            </article>
+            <article class="product-card product-card--small">
+              <div class="product-card__image product-card__image--small">
+                <img src="img/product-small3.jpg" alt="Product image">
               </div>
-            </div>
-          </article>
-          <article class="product-card product-card--small">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
               </div>
-            </div>
-          </article>
-          <article class="product-card product-card--small">
-            <div class="product-card__image">
-              <img src="#" alt="Product image">
-            </div>
-            <div class="product-card__desc">
-              <a class="product-card__link" href="#">
-                <h3>Lorem ipsum dolor</h3>
-              </a>
-              <div class="product-card__prices">
-                <span class="product-card__price">$100</span>
-                <span class="product-card__price product-card__price--new">$90</span>
+            </article>
+            <article class="product-card product-card--small">
+              <div class="product-card__image product-card__image--small">
+                <img src="img/product-small4.jpg" alt="Product image">
               </div>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="brands">
-        <div class="brands__container">
-          <div class="brands__item"></div>
-          <div class="brands__item"></div>
-          <div class="brands__item"></div>
-          <div class="brands__item"></div>
-          <div class="brands__item"></div>
-          <div class="brands__item"></div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card product-card--small">
+              <div class="product-card__image product-card__image--small">
+                <img src="img/product-small5.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+            <article class="product-card product-card--small">
+              <div class="product-card__image product-card__image--small">
+                <img src="img/product-small6.jpg" alt="Product image">
+              </div>
+              <div class="product-card__desc">
+                <a class="product-card__link" href="#">
+                  <h3>Lorem ipsum dolor</h3>
+                </a>
+                <div class="product-card__prices">
+                  <span class="product-card__price">$100</span>
+                  <span class="product-card__price product-card__price--new">$90</span>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </div>
