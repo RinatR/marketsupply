@@ -1,0 +1,38 @@
+.categories-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  width: 298px;
+  padding: 0 14px;
+  margin: 0;
+  list-style: none;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.categories-list__item {
+
+  a {
+    display: block;
+    padding-left: 34px;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: #222222;
+    border-bottom: 1px solid #eaeaea;
+
+    &:hover {
+      color: #f10e34;
+    }
+  }
+
+  &:last-child {
+    a {
+      border-bottom: none;
+    }
+  }
+}

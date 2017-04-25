@@ -10,3 +10,42 @@
     flex-flow: row wrap;
   }
 }
+
+.page-header__logo {
+  width: 195px;
+}
+
+.page-header__nav {
+  width: 390px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.page-header__nav-item {
+  display: inline-block;
+  vertical-align: middle;
+
+
+  a {
+    padding: 0 17px;
+    font-size: 12px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    border-right: 1px solid #ffffff;
+  }
+
+  &:first-child {
+    a {
+      padding-left: 0;
+    }
+  }
+
+  &:last-child {
+    a {
+      border-right: none;
+    }
+  }
+}
